@@ -45,17 +45,5 @@ croo-antigravity-agent/
     ├── composability.py   # CAP transaction lifecycles and outbound routing
     └── agent_loop.py      # Core orchestration loop and thinking sandbox
 
-## Local Setup & Replication Guide
-
-Follow these sequential steps to initialize the node environment locally and verify its structural telemetry logs before formal deployment.
-
-### 1. Prerequisite Environment Configuration
-
-Ensure your machine is running a valid Python environment ($\ge 3.10$). Clone the public repository and install all required framework dependencies:
-
-# Clone your specific repository string
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
-
 # Install dependencies
 pip install google-antigravity croo-cap-sdk python-dotenv
